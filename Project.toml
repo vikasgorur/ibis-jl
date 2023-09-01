@@ -1,0 +1,15 @@
+name = "Ibis"
+uuid = "94b524d0-7bb1-4b28-ba4e-bbe7b85f89bf"
+authors = ["Vikas Gorur"]
+version = "0.1.0"
+
+[deps]
+Chess = "717200cc-f167-4fd3-b4bf-b5e480529844"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+TestItemRunner = "f8b46487-2199-4994-9208-9a1283c18c0a"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
